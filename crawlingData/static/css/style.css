@@ -3,6 +3,11 @@ body{
 }
 
 #header{
-	height:80px;
+	height:46px;
 	background-color : #1BA1E2;
+}
+
+#header_title{
+	font-family: 'Apple SD Gothic Neo',NanumGothic,'Malgun Gothic','Gulim';
+	font-size: 1em;
 }
