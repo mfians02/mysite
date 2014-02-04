@@ -1,4 +1,8 @@
-div{
-	font-size : 30px;
-	background-color : green;
+body{
+	margin : 0;
+}
+
+#header{
+	height:80px;
+	background-color : #1BA1E2;
 }
