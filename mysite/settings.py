@@ -88,6 +88,5 @@ STATICFILES_DIRS = (
     '/usr/local/lib/python2.7/dist-packages/django/contrib/admin/static/admin',
 )
 
-TEMPLATE_DIRS = (
-    os.path.join(os.path.dirname(__file__), 'templates',
-)
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
+
