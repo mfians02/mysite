@@ -5,7 +5,7 @@ def index(request):
     output = '''
     <html>
         <head>
-            first view
+           <title>Odd Comparison</title>
         </head>
         <body>
             first view
