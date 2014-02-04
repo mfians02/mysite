@@ -6,7 +6,7 @@ def main_page(request):
     template = get_template('main_page.html')
     variables = Context({
         'head_title' : 'Odd Comparison',
-        'body' : 'Do make odd comparison service for korean proto'
+        'body_word' : 'Do make odd comparison service for korean proto'
     })
     
     output = template.render(variables)
