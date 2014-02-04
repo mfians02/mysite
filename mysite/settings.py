@@ -87,3 +87,7 @@ STATIC_ROOT = '/home/ubuntu/mysite/static'
 STATICFILES_DIRS = (
     '/usr/local/lib/python2.7/dist-packages/django/contrib/admin/static/admin',
 )
+
+TEMPLATE_DIRS = (
+    os.pate.join(os.path.dirname(__file__), 'templates',
+)
