@@ -89,5 +89,5 @@ STATICFILES_DIRS = (
 )
 
 TEMPLATE_DIRS = (
-    os.pate.join(os.path.dirname(__file__), 'templates',
+    os.path.join(os.path.dirname(__file__), 'templates',
 )
