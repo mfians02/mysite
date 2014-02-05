@@ -8,9 +8,9 @@ class Odd(models.Model):
     def __unicode__(self):
         return self.serviceProvider
     serviceProvider = models.TextField(max_length=50)
-    winP = models.DecimalField()
-    drawP = models.DecimalField()
-    loseP = models.DecimalField()
+    winP = models.DecimalField(max_digits=10,decimal_places=5)
+    drawP = models.DecimalField(max_digits=10,decimal_places=5)
+    loseP = models.DecimalField(max_digits=10,decimal_places=5)
 
 class Game(models.Model):
     def __unicode__(self):
