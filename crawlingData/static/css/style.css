@@ -1,15 +1,57 @@
 body{
-    margin : 0;
+    margin:0;
+	width:100%;
+	min-width:600px;
+	height:100%;
+	font-family:'Apple SD Gothic Neo',NanumGothic,'Malgun Gothic','Gulim';
 }
 
 #header{
-    height:46px;
+    width:100%;
+	height:46px;
     background-color:#1BA1E2;
+	vertical-align:middle;
 }
 
 #header_title{
-    font-family:'Apple SD Gothic Neo',NanumGothic,'Malgun Gothic','Gulim';
-    font-size:1em;
+    font-size:20px;
     color:#FFFFFF;
-    text-align:center;
+    margin:0 auto;
+	padding:11px 0px;
+	text-align:center;
+	width:150px;
+	height:24px;
+}
+
+#body{
+	width:100%;
+	background-color:#e1e8ed;
+	margin:0;
+}
+
+#proto_table{
+	margin:0 auto;
+	width:600px;
+	font-size:13px;
+}
+
+th{
+	font-weight:normal;
+}
+
+#footer{
+	width:100%;
+	height:60px;
+	font-size:12px;
+	background-color:#ccd6dd;
+}
+
+ul{
+	margin:0;
+	padding:14px 0px;
+	list-style:none;
+}
+li{
+	margin:0;
+	text-align:center;
 }
