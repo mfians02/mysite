@@ -18,6 +18,7 @@ def remove_escape_sequence(a):
     for i in keyList:
         a[i] = a[i].replace('\n','')
         a[i] = a[i].replace('\t','')
+        a[i] = a[i].replace('\r','')
         a[i] = a[i].replace(' ','')
     return a
 

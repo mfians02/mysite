@@ -8,7 +8,7 @@ body{
 
 #header{
     width:100%;
-	height:46px;
+	height:51px;
     background-color:#1BA1E2;
 	vertical-align:middle;
 }
@@ -31,8 +31,8 @@ body{
 
 #proto_table{
 	margin:0 auto;
-	width:600px;
-	font-size:13px;
+	width:100%;
+	font-size:15px;
 }
 
 th{
