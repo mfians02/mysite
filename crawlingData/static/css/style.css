@@ -1,43 +1,174 @@
+/*
+Color Set
+strong blue : #2da1d2
+light blue : #cde8f4
+font blue : #0c5f9c
+red : #d3511b
+gray: #ededed
+*/
+
 body{
     margin:0;
-	width:100%;
-	height:100%;
 	font-family:'Apple SD Gothic Neo',NanumGothic,'Malgun Gothic','Gulim';
 }
 
 #header{
-	height:51px;
+	height:56px;
     background-color:#1BA1E2;
 	vertical-align:middle;
 }
 
 #header_title{
-    font-size:1.5em;
+    font-size:16px;
     color:#FFFFFF;
     margin:0 auto;
-	padding:11px 0px;
+	padding:20px 0px;
 	text-align:center;
-	width:200px;
-	height:24px;
 }
 
 #body{
-	background-color:#e1e8ed;
+	background-color:#cde8f4;
 	margin:0;
+	padding:2%;
+	color:#0c5f9c;
 }
 
-#proto_table{
-	margin:0 auto;
-	font-size:1em;
+.background_text{
+	font-size:14px;
 }
 
-th{
-	font-weight:normal;
+/*game box*/
+.game{
+	background-color:#ffffff;
+	width:100%;
+	height:50px;
+	margin:2% 0px;
+	font-size:14px;
+}
+
+/*odd information box*/
+.odd_information{
+	width:100%;
+	height:46px;
+}
+.home_team{
+	width:25%;
+	height:14px;
+	float:left;
+	margin:16px 0px;
+	margin-left:1%;
+	text-align:left;
+}
+.away_team{
+	width:25%;
+	height:14px;
+	float:left;
+	margin:16px 0px;
+	margin-right:1%;
+	text-align:right;
+}
+.home_odd{
+	width:16%;
+	height:14px;
+	float:left;
+	margin:16px 0px;
+	text-align:center;
+}
+.draw_odd{
+	width:16%;
+	height:14px;
+	float:left;
+	padding:16px 0px;
+	background-color:#ededed;
+	text-align:center;
+}
+.away_odd{
+	width:16%;
+	height:14px;
+	float:left;
+	margin:16px 0px;
+	text-align:center;
+}
+
+/*draw box*/
+.bar{
+	width:100%;
+	height:4px;
+}
+.home_bar{
+	background-color:#2da1d2;
+	width:45%;
+	height:100%;
+	float:left;
+}
+.draw_bar{
+	background-color:#ededed;
+	width:10%;
+	height:100%;
+	float:left;
+}
+.away_bar{
+	background-color:#d3511b;
+	width:45%;
+	height:100%;
+	float:left;
+}
+
+/*game information box*/
+.game_information{
+	background-color:#ffffff;
+	width:100%;
+	height:130px;
+	margin:2% 0px;
+	font-size:14px;
+}
+.odd{
+	background-color:#ffffff;
+	width:100%;
+	height:36px;
+	margin:2% 0px;
+}
+.odd_information_provider{
+	width:100%;
+	height:32px;
+}
+.provider{
+	background-color:#ededed;
+	width:20%;
+	height:14px;
+	font-size:13px;
+	padding:9px 0px;
+	float:left;
+	text-align:center;
+}
+.home_p{
+	width:25%;
+	height:14px;
+	margin:9px 0px;
+	margin-left:2.5%;
+	float:left;
+	text-align:center;
+}
+.draw_p{
+	width:25%;
+	height:14px;
+	margin:9px 0px;
+	float:left;
+	text-align:center;
+}
+.away_p{
+	width:25%;
+	height:14px;
+	margin:9px 0px;
+	margin-right:2.5%;
+	float:left;
+	text-align:center;
 }
 
 #footer{
 	height:60px;
 	font-size:0.8em;
+	color:#66757f;
 	background-color:#ccd6dd;
 }
 
